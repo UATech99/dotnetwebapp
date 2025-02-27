@@ -1,8 +1,45 @@
 {
   "version": 2,
-  "dgSpecHash": "oqpQoc0V75Vyjf7Ec5AVtwJnhb2CIGU41sYMhTJQA9qm5oaj0WHeJfzy/5ofQupKcvzwY/YJeZZRBUZVw/kJLw==",
-  "success": true,
-  "projectFilePath": "/root/dotnetwebapp/dotnetwebapp.csproj",
+  "dgSpecHash": "hZ17nZhOFpY=",
+  "success": false,
+  "projectFilePath": "C:\\Users\\Umar\\OneDrive\\Documents\\VScode_data\\jenkins\\myfiles\\dotnet\\dotnetwebapp\\dotnetwebapp.csproj",
   "expectedPackageFiles": [],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package Microsoft.WindowsDesktop.App.Ref. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.WindowsDesktop.App.Ref",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package Microsoft.NETCore.App.Ref. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.NETCore.App.Ref",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package Microsoft.AspNetCore.App.Ref. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.AspNetCore.App.Ref",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package Microsoft.NETCore.App.Host.win-x64. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.NETCore.App.Host.win-x64",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
 }
